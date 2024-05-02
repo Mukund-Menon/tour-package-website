@@ -86,38 +86,38 @@ function HomePage() {
 		<div class="destination-content">
 			<div class="col-content">
 				<img src="img/rumi darwaza.jpg"/>
-				<h5>Rumi Darwaza</h5>
-				<p>LUCKNOW</p>
+				<h5>Lorem epsum</h5>
+				<p>Location</p>
 			</div>
 
 			<div class="col-content">
 				<img src="img/Bara_Imambara.jpg"/>
-				<h5>Bada Imambara</h5>
-				<p>LUCKNOW</p>
+				<h5>Lorem epsum</h5>
+				<p>Location</p>
 			</div>
 
 			<div class="col-content">
 				<img src="img/dome.jpg"/>
-				<h5>Dome</h5>
-				<p>LUCKNOW</p>
+				<h5>Lorem epsum</h5>
+				<p>Location</p>
 			</div>
 
 			<div class="col-content">
 				<img src="img/lohia park.jpg"/>
-				<h5>Lohia Park</h5>
-				<p>LUCKNOW</p>
+				<h5>Lorem epsum</h5>
+				<p>Location</p>
 			</div>
 
 			<div class="col-content">
 				<img src="img/gomti-riverfront-park.jpg"/>
-				<h5>Riverfront</h5>
-				<p>LUCKNOW</p>
+				<h5>Lorem epsum</h5>
+				<p>Location</p>
 			</div>
 
 			<div class="col-content">
 				<img src="img/ambedkar park.jpg"/>
-				<h5>Ambedkar Park</h5>
-				<p>LUCKNOW</p>
+				<h5>Lorem epsum</h5>
+				<p>Location</p>
 			</div>
 
 		</div>
@@ -131,38 +131,38 @@ function HomePage() {
 	<div class="destination-content">
 		<div class="col-content">
 			<img src="img/distillery.jpg"/>
-			<h5>Distillery , Gomti Nagar</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/flying_saucer.jpg"/>
-			<h5>Flying-Saucer , Gomti Nagar</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/beer cafe.jpg"/>
-			<h5>Beer Cafe , Gomti Nagar</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/molecule.jpg"/>
-			<h5>Molecule , Gomti Nagar</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/void).png"/>
-			<h5>Void , Gomti Nagar</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/drowning.jpg"/>
-			<h5>Drowning Street , Gomti Nagar</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 	</div>
@@ -176,20 +176,20 @@ function HomePage() {
 	<div class="destination-content">
 		<div class="col-content">
 			<img src="img/bowling.jpg"/>
-			<h5>Entertainment Zone , Gomti NAGAR</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/focused_207455382-stock-photo-snooker-balls-snooker-table-nigh.jpg"/>
-			<h5>Billiards , Hype Room</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src="img/17_512-392x518.jpg"/>
-			<h5>Fun-Zone , Lulu Mall</h5>
-			<p>LUCKNOW</p>
+			<h5>Lorem epsum</h5>
+			<p>Location</p>
 		</div>
 
 	</div>
@@ -199,45 +199,18 @@ function HomePage() {
 			<div class="main">
 				<div class="list">
 					<h4>Quick Links</h4>
-					<ul>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Help</a></li>
-						<li><a href="#">Tour</a></li>
-					</ul>
 				</div>
 
 				<div class="list">
 					<h4>Support</h4>
-					<ul>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Help</a></li>
-						<li><a href="#">Tour</a></li>
-					</ul>
 				</div>
 
 				<div class="list">
 					<h4>Contact Info</h4>
-					<ul>
-						<li><a href="#">Krishna Nagar</a></li>
-						<li><a href="#">Lucknow</a></li>
-						<li><a href="#">+91-8009411325</a></li>
-						<li><a href="#">lkotravel@gmail.com</a></li>
-						
-					</ul>
 				</div>
 
 				<div class="list">
 					<h4>Connect</h4>
-					<div class="social">
-						<a href="#"><i class='bx bxl-facebook' ></i></a>
-						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-						<a href="#"><i class='bx bxl-twitter' ></i></a>
-						<a href="#"><i class='bx bxl-linkedin' ></i></a>
-					</div>
 				</div>
 			</div>
 		</div>
