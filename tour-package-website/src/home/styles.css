@@ -245,14 +245,14 @@ header.sticky{
 	position: absolute;
 	font-size: 22px;
 	font-weight: 500;
-	color: black;
+	color: var(--bg-color);
 	left: 15px;
 	bottom: 60px;
 }
 .col-content p{
 	position: absolute;
 	font-size: 15px;
-	color: black;
+	color: var(--bg-color);
 	left: 15px;
 	bottom: 30px;
 	letter-spacing: 2px;

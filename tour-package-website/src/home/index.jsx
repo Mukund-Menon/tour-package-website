@@ -1,5 +1,21 @@
 import React from 'react';
 import './styles.css';
+import delhi from '../img/delhi.jpg'
+import RedFort from '../img/image14.jpeg'
+import HumayunTomb from '../img/image15.jpeg'
+import Alapuzha from '../img/image13.jpeg'
+import Shreejagannathatemplepuri from '../img/image6.jpeg'
+import BrihadeeswaraTemple from '../img/image7.jpeg'
+import Charminar from '../img/image8.jpeg'
+import sikkim from '../img/image9.jpeg'
+import goa from '../img/image10.jpeg'
+import mysorePalace from '../img/image11.jpeg'
+import mahabodhiTemple from '../img/image12.jpeg'
+import chittorgarhFort from '../img/image1.jpeg'
+import konarkSunTemple from '../img/image2.jpeg'
+import JatayuEarthCenter from '../img/image3.jpeg'
+import Tajmahal from '../img/image4.jpeg'
+import goldenTemple from '../img/image5.jpeg'
 
 function HomePage() {
     return (
@@ -39,28 +55,28 @@ function HomePage() {
 		<div class="row-items">
 			<div class="container-box">
 				<div class="container-img">
-					<img src="img/shopping.png"/>
+					<img src={delhi}/>
 				</div>
 				<h4>Shopping</h4>
 			</div>
 
 			<div class="container-box">
 				<div class="container-img">
-					<img src="img/food.png"/>
+					<img src={delhi}/>
 				</div>
 				<h4>Food Tours</h4>
 			</div>
 
 			<div class="container-box">
 				<div class="container-img">
-					<img src="img/sight_seeing.png"/>
+					<img src={delhi}/>
 				</div>
 				<h4>Sight Seeing</h4>
 			</div>
 
 			<div class="container-box">
 				<div class="container-img">
-					<img src="img/entertainment.png"/>
+					<img src={delhi}/>
 				</div>
 				<h4>Entertainment</h4><h4>and Fun</h4>
 			</div>
@@ -85,39 +101,39 @@ function HomePage() {
 
 		<div class="destination-content">
 			<div class="col-content">
-				<img src="img/rumi darwaza.jpg"/>
-				<h5>Lorem epsum</h5>
-				<p>Location</p>
+				<img src={delhi}/>
+				<h5>India Gate</h5>
+				<p>New Delhi</p>
 			</div>
 
 			<div class="col-content">
-				<img src="img/Bara_Imambara.jpg"/>
-				<h5>Lorem epsum</h5>
-				<p>Location</p>
+				<img src={RedFort}/>
+				<h5>Red Fort</h5>
+				<p>New Delhi</p>
 			</div>
 
 			<div class="col-content">
-				<img src="img/dome.jpg"/>
-				<h5>Lorem epsum</h5>
-				<p>Location</p>
+				<img src={HumayunTomb}/>
+				<h5>Humayun Tomb</h5>
+				<p>New Delhi</p>
 			</div>
 
 			<div class="col-content">
-				<img src="img/lohia park.jpg"/>
-				<h5>Lorem epsum</h5>
-				<p>Location</p>
+				<img src={Alapuzha}/>
+				<h5>Alapuzha</h5>
+				<p>Kerala</p>
 			</div>
 
 			<div class="col-content">
-				<img src="img/gomti-riverfront-park.jpg"/>
-				<h5>Lorem epsum</h5>
-				<p>Location</p>
+				<img src={Shreejagannathatemplepuri}/>
+				<h5>Shree Jagannatha Temple Puri</h5>
+				<p>Odisha</p>
 			</div>
 
 			<div class="col-content">
-				<img src="img/ambedkar park.jpg"/>
-				<h5>Lorem epsum</h5>
-				<p>Location</p>
+				<img src={BrihadeeswaraTemple}/>
+				<h5>Brihadeeswara Temple</h5>
+				<p>Tamil Nadu</p>
 			</div>
 
 		</div>
@@ -130,37 +146,37 @@ function HomePage() {
 
 	<div class="destination-content">
 		<div class="col-content">
-			<img src="img/distillery.jpg"/>
+			<img src={Charminar}/>
+			<h5>Charminar</h5>
+			<p>Hyderabad</p>
+		</div>
+
+		<div class="col-content">
+			<img src={sikkim}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
-			<img src="img/flying_saucer.jpg"/>
+			<img src={goa}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
-			<img src="img/beer cafe.jpg"/>
+			<img src={delhi}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
-			<img src="img/molecule.jpg"/>
+			<img src={mysorePalace}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
-			<img src="img/void).png"/>
-			<h5>Lorem epsum</h5>
-			<p>Location</p>
-		</div>
-
-		<div class="col-content">
-			<img src="img/drowning.jpg"/>
+			<img src={mahabodhiTemple}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
@@ -175,19 +191,19 @@ function HomePage() {
 
 	<div class="destination-content">
 		<div class="col-content">
-			<img src="img/bowling.jpg"/>
+			<img src={chittorgarhFort}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
-			<img src="img/focused_207455382-stock-photo-snooker-balls-snooker-table-nigh.jpg"/>
+			<img src={konarkSunTemple}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
-			<img src="img/17_512-392x518.jpg"/>
+			<img src={JatayuEarthCenter}/>
 			<h5>Lorem epsum</h5>
 			<p>Location</p>
 		</div>
