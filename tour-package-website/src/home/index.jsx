@@ -198,14 +198,14 @@ function HomePage() {
 
 		<div class="col-content">
 			<img src={konarkSunTemple}/>
-			<h5>Lorem epsum</h5>
+			<h5>Konark Sun Temple</h5>
 			<p>Location</p>
 		</div>
 
 		<div class="col-content">
 			<img src={JatayuEarthCenter}/>
-			<h5>Lorem epsum</h5>
-			<p>Location</p>
+			<h5>Jatayu Earth's Center</h5>
+			<p>Kerala</p>
 		</div>
 
 	</div>
