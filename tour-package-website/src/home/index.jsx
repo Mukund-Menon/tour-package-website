@@ -14,13 +14,18 @@ import mahabodhiTemple from '../img/image12.jpeg'
 import chittorgarhFort from '../img/image1.jpeg'
 import konarkSunTemple from '../img/image2.jpeg'
 import JatayuEarthCenter from '../img/image3.jpeg'
-import Tajmahal from '../img/image4.jpeg'
-import goldenTemple from '../img/image5.jpeg'
+import shopping from '../img/shopping.png'
+import sight from '../img/sight_seeing.png'
+import entertainment from '../img/entertainment.png'
+import food from '../img/food.png'
 
 function HomePage() {
     return (
+		
         <div>
-    <body>
+
+    <body class="bruh">
+	<>
 	<header>
 		<a href="#" class="logo">Explora</a>
 		<div class="bx bx-menu" id="menu-icon"></div>
@@ -37,12 +42,14 @@ function HomePage() {
 					<a href="#"><i class='bx bxl-linkedin' ></i></a>
 				</div>
 		</ul>
+		<styles>
+			
+		</styles>
 	</header>
 
 	<section class="home" id="home">
 		<div class="home-text">
 			<h1>Be the Dora, <br/> Explore India</h1>
-			<p>Websites for tours and activities make it easier for time-constrained travellers to select specialised day trips or excursions and spare them from exhaustion during the search.</p>
 			<a href="#" class="home-btn">Let's go now</a>
 		</div>
 	</section>
@@ -55,30 +62,30 @@ function HomePage() {
 		<div class="row-items">
 			<div class="container-box">
 				<div class="container-img">
-					<img src={delhi}/>
+					<img src={shopping}/>
 				</div>
 				<h4>Shopping</h4>
 			</div>
 
 			<div class="container-box">
 				<div class="container-img">
-					<img src={delhi}/>
+					<img src={food}/>
 				</div>
 				<h4>Food Tours</h4>
 			</div>
 
 			<div class="container-box">
 				<div class="container-img">
-					<img src={delhi}/>
+					<img src={sight}/>
 				</div>
 				<h4>Sight Seeing</h4>
 			</div>
 
 			<div class="container-box">
 				<div class="container-img">
-					<img src={delhi}/>
+					<img src={entertainment}/>
 				</div>
-				<h4>Entertainment</h4><h4>and Fun</h4>
+				<h4>Entertainment</h4>
 			</div>
 
 		</div>
@@ -96,7 +103,7 @@ function HomePage() {
 
 	<section class="destination" id="destination">
 		<div class="title">
-			<h2>Our Most Popular <br/> Destination!</h2>
+			<h2>Our Most Popular <br/> Destinations!</h2>
 		</div>
 
 		<div class="destination-content">
@@ -210,30 +217,24 @@ function HomePage() {
 
 	</div>
 </section>
-	<section id="contact">
+<section id="contact">
 		<div class="footer">
 			<div class="main">
 				<div class="list">
-					<h4>Quick Links</h4>
-				</div>
-
-				<div class="list">
 					<h4>Support</h4>
-				</div>
-
-				<div class="list">
-					<h4>Contact Info</h4>
-				</div>
-
-				<div class="list">
-					<h4>Connect</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</section>
-
+		</section>
 	<script type="text/javascript" src="js/script.js"></script>
-
+	</>
 </body>
         </div>
     );

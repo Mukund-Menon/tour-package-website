@@ -16,10 +16,11 @@
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
 }
-body{
+body {
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+
 
 header{
 	position: fixed;
@@ -72,7 +73,7 @@ section{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: url(../img/background.jpg);
+	background: url(../img/background.png);
 	background-size: cover;
 	background-position: center;
 	display: grid;
@@ -122,6 +123,7 @@ header.sticky{
 .text h2{
 	font-size: var(--h2-font);
 	line-height: 1.1;
+	text-align: left;
 }
 .row-items{
 	display: grid;

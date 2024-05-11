@@ -1,43 +1,24 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-image: url(leaf.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.863)
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
 }
 
 body{
-    display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-position: center;
   
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px 100px;
-    background: rgb(11, 87, 45);
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-    z-index: 99;
-}
 
 .logo{
     font-size: 2em;
-    color: #fff;
+    color: var(--bg-color);
     user-select: none;
 }
 
@@ -110,6 +91,8 @@ header{
     align-items: center;
     overflow: hidden;  
     transition: transform .5s ease,height .2s ease;
+    margin-top: 8%;
+    margin-left: 38%;
 }
 
 /**/
