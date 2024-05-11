@@ -298,8 +298,6 @@ header.sticky{
 	border: none;
 	padding: 14px 30px;
 	border-radius: 15px;
-	background: var(--main-color);
-	color: var(--bg-color);
 	top: 6px;
 	right: 6px;
 	cursor: pointer;
