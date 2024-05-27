@@ -60,9 +60,6 @@ function HomePage() {
 						<a href="#"><i class='bx bxl-linkedin' ></i></a>
 					</div>
 			</ul>
-			<styles>
-				
-			</styles>
 		</header>
 
 		<section class="home" id="home">
@@ -113,13 +110,15 @@ function HomePage() {
 			<div class="title">
 				<h2>Our Most Popular <br/> Destinations!</h2>
 			</div>
-
 			<div class="destination-content">
+
+			<Link to="/booking">
 				<div class="col-content">
 					<img src={delhi}/>
 					<h5>India Gate</h5>
 					<p>New Delhi</p>
 				</div>
+			</Link>
 
 				<div class="col-content">
 					<img src={RedFort}/>
