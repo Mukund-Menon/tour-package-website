@@ -60,7 +60,23 @@ const destinations = [
 function Search() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredData, setFilteredData] = useState(destinations);
+    const [scrolling, setScrolling] = useState(false);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setScrolling(true);
+            } else {
+                setScrolling(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     useEffect(() => {
         const searchData = searchTerm.toLowerCase();
         const filteredItems = destinations.filter(item =>
@@ -70,9 +86,12 @@ function Search() {
     }, [searchTerm]);
 
     return (
-        <>
+            <div>
+                <body body className={scrolling ? 'bruh sticky' : 'bruh'}>
+                <>
+                <header>
             <nav>
-                <a href="#" className="logo">Explora</a>
+                <a href="#" className="logo">Explore</a>
                 <div className="bx bx-menu" id="menu-icon"></div>
                 <ul className="navbar">
                     <li><a href="#home">Home</a></li>
@@ -85,7 +104,8 @@ function Search() {
                         <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
                     </div>
                 </ul>
-            </nav>
+            </nav>  
+            </header>
             <div>
                 <section className="newsletter">
                     <form>
@@ -104,10 +124,7 @@ function Search() {
                             {filteredData.map((item) => (
                                 <div className='destination-contentt' key={item.id}>
                                     <div className='col-contentt'>
-                                        
                                             <img src={item.image} alt={item.title} />
-                                        
-                                        
                                             <p>{item.title}</p>
                                             <h5>{item.location}</h5>
                                         
@@ -118,7 +135,9 @@ function Search() {
                     </div>
                 </section>
             </div>
-        </>
+            </>
+            </body>
+            </div>
     );
 }
 

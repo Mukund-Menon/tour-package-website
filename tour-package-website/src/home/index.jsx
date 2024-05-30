@@ -53,12 +53,12 @@ function HomePage() {
 				<li><a href="#destination">Destination</a></li>
 				<li><a href="#contact">Contact Us</a></li>
 
-					<div class="social">
-						<a href="#"><i class='bx bxl-facebook' ></i></a>
-						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-						<a href="#"><i class='bx bxl-twitter' ></i></a>
-						<a href="#"><i class='bx bxl-linkedin' ></i></a>
-					</div>
+				<div class="social">
+					<a href="#"><i class='bx bxl-facebook' ></i></a>
+					<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+					<a href="#"><i class='bx bxl-twitter' ></i></a>
+					<a href="#"><i class='bx bxl-linkedin' ></i></a>
+				</div>
 			</ul>
 		</header>
 

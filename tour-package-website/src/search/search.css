@@ -17,6 +17,7 @@
 	--p-font: 1.1rem;
 }
 body {
+	background-image: url('../img/background.png');
 	background: var(--bg-color);
 	color: var(--text-color);
 }
@@ -456,7 +457,9 @@ header.sticky{
 
 .destination-contentt {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Three columns with minimum width of 300px */
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 5rem;
@@ -472,7 +475,6 @@ header.sticky{
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
-    filter: brightness(80%);
     transition: all 0.3s cubic-bezier(0.495, 0.05, 0.55, 0.95);
     will-change: filter;
 }
@@ -497,7 +499,6 @@ header.sticky{
 }
 
 .col-contentt img:hover {
-    filter: brightness(100%) hue-rotate(45deg);
     transform: scale(1.04);
     cursor: pointer;
 }

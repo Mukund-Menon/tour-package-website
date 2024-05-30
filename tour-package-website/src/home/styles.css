@@ -239,7 +239,7 @@ header.sticky{
 	height: 500px;
 	object-fit: cover;
 	border-radius: 15px;
-	filter: brightness(80%);
+	/* filter: brightness(80%); */
 	transition: all .3s cubic-bezier(.495,.05,.55,.95);
 	will-change: filter;
 }
